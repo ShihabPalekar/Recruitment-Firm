@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    text-align: center;
+    align-content: center;
+    background-color: honeydew;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: mediumaquamarine;
+    height: 65px;
+}
+
+.nav-links{
+    display: flex;
+    width: 33%;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.job-posts-container {
+    display: grid;
+    margin-top: 4%;
+    margin-left: 8em;
+    margin-right: 10em;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.job-post{
+    margin-right: 3em;
+    text-align: left;
+    width: 22em;
+    height: 21em;
+}
+
+.job-post-btn{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    margin-top: 3.7%;
+    margin-left: 29%;
+}
+
+.personal-card{
+    margin: 4% 37% 2%;
+    width: 21em;
+}
+
+.qual-container {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+
+.qual-card-1, .qual-card-2 {
+    margin: 8%;
+    margin-bottom: 9.6%;
+    width: 19em;
+    height: 20em;
+}
+
+.qual-card-1 {
+    margin-left: 46%;
+}
+
+.qual-card-2 {
+    margin-right: 46%;
+}
+
+.qual-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+
+.qual-btn1 {
+    margin-left: 79%;
+}
+
+.qual-btn2 {
+    margin-right: 81%;
+}
+
+.exp-container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin-top: 3%;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 3%;
+}
+
+.exp-card1, .exp-card2, .exp-card3 {
+    margin-right: 3em;
+    /* margin: 8%;
+    margin-bottom: 9.6%;
+    width: 19em;
+    height: 20em; */
+}
+
+.exp-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+}
+
+.exp-btn1 {
+    margin-left: 75%;
+}
+
+.exp-btn2 {
+    margin-right: 86%;
+}
+
+.success-card{
+    margin: 6.5% 25% 2%;
+    width: 40em;
+    height: 14em;
+    padding-top: 4.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
